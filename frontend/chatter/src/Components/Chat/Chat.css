@@ -1,0 +1,47 @@
+header {
+    color: white;
+    font-size: 5vh;
+}
+
+.App-header {
+    margin-bottom: 10%;
+}
+  
+ul {
+    padding: 0;
+    width: 50vw;
+}
+  
+li {
+    color: white;
+    font-size: 3vh;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    background-color: blue;
+    border-radius: 15%;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+
+input {
+    width: 50vw;
+    font-size: 30px;
+    height: 5vh;
+}
+
+button {
+    width: auto;
+    height: 5vh;
+    margin-left: 15px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(144, 80, 20);
+    color: white;
+    border: none;
+}
