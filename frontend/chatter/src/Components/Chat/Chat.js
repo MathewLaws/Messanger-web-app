@@ -3,7 +3,7 @@ import './Chat.css';
 import {useState, useEffect} from "react"
 import io, { Manager } from "socket.io-client"
 
-const socket = io.connect("http://192.168.1.193:5000")
+const socket = io.connect("replace with url")
 
 function Chat({ name }) {
 
