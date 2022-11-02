@@ -9,7 +9,7 @@ const io = require("socket.io")(server, {
 
 const dbUri = "mongodb+srv://MathewLaws:DqLFZgMS3BlZiOlx@cluster.xpvtf.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(dbUri, { useNewUrlParser: true, useUnifiedTopology: true})
-    .then((result) => server.listen(5000, "192.168.1.193"))
+    .then((result) => server.listen(5000, "replace with ip"))
     .catch((err) => console.error(err));
 
 const chatSchema = new mongoose.Schema({
