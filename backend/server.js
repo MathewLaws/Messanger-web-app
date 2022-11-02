@@ -35,5 +35,3 @@ io.on("connection", socket => {
         newMsg.save()
     });
 })
-
-//server.listen(5000, "192.168.1.193");
